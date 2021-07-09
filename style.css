@@ -1,0 +1,119 @@
+body {
+    background: #D3DCD3;
+        background: -moz-linear-gradient(top, #30363D 0%, #D3DCD3 100%);
+        background: -webkit-linear-gradient(top, #30363D 0%, #D3DCD3 100%);
+        background: linear-gradient(to bottom, #30363D 0%, #D3DCD3 100%);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin: 20px;
+}
+
+header, footer {
+    background-color: #76848C;
+    opacity: 0.8;
+    border-radius: 20px;
+    color: #30363D;
+    text-align: center;
+    padding: 1px 0px 10px 0px;
+}
+
+main {
+    background-color: #ADBCBA;
+    border-radius: 20px;
+    margin: 20px 0px;
+    padding: 20px 0px 20px 0px;
+}
+
+#title {
+    text-transform: uppercase;
+    font-size: 62px;
+    font-weight: 900;
+    margin: 10px 0px 5px 0px;
+    color: white;
+    text-shadow: 3px 3px #30363D;
+}   
+    
+h2 {
+    margin: 0px 0px 23px 0px;
+    color: white;
+    text-shadow: 2px 2px #30363D;
+}
+
+h3 {
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+  }
+
+a:hover {
+    color: #30363D;
+    font-style: none;
+    -webkit-transition: color 1s ease-out; -moz-transition: color 1s ease-out; transition: color 1s ease-out;
+  }
+
+nav {
+    align-content: center;
+    margin: 0px 40px 0px 0px;
+}
+
+li {
+    border-radius: 10px;
+    display: inline;
+    padding: 10px 10px;
+    margin: 4px;
+    background-color: #ADBCBA;
+    font-size: large;
+}
+
+section {
+    color: #30363D;
+    text-align: center;
+}
+
+section p {
+    text-align: justify;
+    width: 60%;
+    margin: 0% 20%;
+}
+
+#image {
+    width: 63%;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+#gif {
+    border-radius: 20px;
+    width: 37%;
+    overflow: hidden;
+    margin: 13px 0px 8px 0px;
+}
+
+#greeting {
+    color: white;
+}
+
+button {
+    width: 100%;
+    padding: 20px;
+    font-size: large;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: white;
+    margin: 0px 0px 20px 0px;
+    outline: none;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #30363D;
+}
+
+button:hover {
+	transition: .5s;
+	background-color: white;
+	color: #30363D;
+}
